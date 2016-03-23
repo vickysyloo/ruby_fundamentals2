@@ -1,13 +1,18 @@
+def asterisk(list)
+  list.each do |i|
+    puts "* #{i}"
+  end
+end
+
+
 grocery_list = ["carrots", "toilet paper", "apples", "salmon"]
 
-grocery_list.each do |produce|
-  puts "* #{produce}"
-end
+asterisk(grocery_list)
+
 
 grocery_list << "rice"
 # => ["carrots", "toilet paper", "apples", "salmon", "rice"]
 
-grocery_list
 
 grocery_list.length # => 5
 
@@ -21,4 +26,4 @@ end
 
 grocery_list[1] # => toilet paper
 
-grocery_list.sort("*")
+asterisk(grocery_list.sort)
