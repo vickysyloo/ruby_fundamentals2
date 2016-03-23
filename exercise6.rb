@@ -4,6 +4,7 @@ def asterisk(list)
   end
 end
 
+#asterisk = name of method, list = argument
 
 grocery_list = ["carrots", "toilet paper", "apples", "salmon"]
 
@@ -27,3 +28,7 @@ end
 grocery_list[1] # => toilet paper
 
 asterisk(grocery_list.sort)
+
+grocery_list.delete("salmon")
+
+asterisk(grocery_list)
