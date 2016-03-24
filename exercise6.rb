@@ -15,7 +15,7 @@ grocery_list << "rice"
 # => ["carrots", "toilet paper", "apples", "salmon", "rice"]
 
 
-grocery_list.length # => 5
+puts grocery_list.length # => 5
 
 if grocery_list.include?("bananas")
   puts "You need to pick up bananas."
